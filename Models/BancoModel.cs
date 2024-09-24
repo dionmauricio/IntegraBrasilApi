@@ -11,7 +11,7 @@ public class BancoModel
     public string Nome { get; set; } = string.Empty;
 
     [JsonPropertyName("code")]
-    public int Codigo { get; set; }
+    public int? Codigo { get; set; }
 
     [JsonPropertyName("fullName")]
     public string NomeCompleto { get; set; } = string.Empty;
